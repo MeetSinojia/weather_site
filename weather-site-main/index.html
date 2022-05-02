@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+
+    <!-- CSS linked here -->
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="currentinfo">
+            <div class="date_container">
+                <div class="time" id="time">
+                    12:30 <span id="am_pm">am</span>
+                </div>
+                <div class="date" id="date">
+                    Monday, 15 May
+                </div>
+                <div class="others" id="current_weather_items">
+                    
+                </div>
+            </div>
+
+            <div class="place_container">
+                <div class="time_zone" id="time_zone">Time Zone</div>
+                <div class="country" id="country">IND</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="future_forecast">
+        <div class="today" id="current_temp">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weahter icon" class="w_icon">
+
+            <div class="other">
+                <div class="today_day">Monday</div>
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.2&#176; C</div>
+            </div>
+        </div>
+
+        <div class="weather_forecast" id="weather_forecast">
+
+            <div class="weather_forecast_item">
+                <div class="day">Tue</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weahter icon" class="w_icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.2&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Tue</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weahter icon" class="w_icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.2&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Tue</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weahter icon" class="w_icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.2&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Tue</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weahter icon" class="w_icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.2&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Tue</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weahter icon" class="w_icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.2&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Tue</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weahter icon" class="w_icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.2&#176; C</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- moment.js for time formatting the sunrise and sunset timings -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- linking the js files -->
+    <script src="script.js"></script> 
+
+</body>
+</html>
